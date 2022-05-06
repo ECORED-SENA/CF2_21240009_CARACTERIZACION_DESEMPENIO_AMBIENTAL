@@ -5,9 +5,25 @@
   
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span
-          i.fas.fa-info
+        span.text-white i
       h1 Introducción
+
+   
+    .row.justify-content-center.align-items-center.crd--emeraldBlue.mb-5
+      .bl_00
+      .col-lg.mb-4.mb-lg-0
+        p.mb-0.ms-lg-4.text-white Las diferentes organizaciones que buscan mejorar sus procesos productivos y alcanzar un desempeño ambiental óptimo son cada vez más, no solo por voluntad propia, sino también por las exigencias normativas que avanzan a pasos agigantados a nivel mundial; es por esto que se implementan muchas metodologías reconocidas y validadas a nivel internacional, con las cuales se pueden identificar las afectaciones ambientales en las que incurre la organización. Por lo anterior, se invita a consultar el siguiente video que le permitirá tener un panorama del componente formativo que tratará las temáticas relacionadas con ello:
+      .col-auto.gx-0   
+        img(src="@/assets/curso/introduccion/intro.png", alt="alt").img400
+          
+    
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+         
+
+
+    
 
 </template>
 

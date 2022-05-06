@@ -1,0 +1,360 @@
+.curso-main-container > .container 
+  overflow-x: inherit
+
+/// image sizes
+.img85
+  width: 85px
+.img110
+  width: 110px
+.img125
+  width: 125px
+.img220
+  width: 220px
+.img250
+  width: 250px
+.img350
+  width: 350px
+.img400
+  max-width: 400px
+.img450
+  max-width: 450px
+.img500
+  max-width: 500px
+
+
+/// Txt 
+.clr--DarkGreen
+  color: #126783
+  font-weight: 700
+.clr--Blue
+  color: #20BDFC
+ 
+
+.h3__cstm
+  position: relative
+  display: inline-block
+  padding: 0.65rem 3rem 0.65rem 1.5rem
+  border-radius: 999px
+  background-color: #126783
+  h3
+    color: white !important
+    margin-bottom: 0 !important
+  .title_icon
+    position: absolute
+    top: 50%
+    right: 0
+    transform: translate(40%,-50%)
+    width: 55px
+    height: 50px
+    background-image: url("../assets/curso/recursos/icon_02.svg")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center center 
+
+
+/// Position 
+.cta_icon_01
+  position: absolute
+  top: 50%
+  left: 0
+  transform: translate(-50%,-50%)
+  
+/// Crds
+
+.crd--emeraldBlue
+  position: relative  
+  background-color: #126783
+  border-radius: 15px
+  @media (max-width: 1200px)
+    padding: 2rem
+
+.crd--whiteCustom
+  position: relative   
+  border-radius: 15px
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+  background-color: white
+  @media (max-width: 1200px)
+    padding: 2rem
+
+.crd
+  position: relative
+  padding: 2rem
+  &.crdH100
+    height: 100%
+    padding-top: 2rem
+    padding-bottom: 2rem
+  &.crd--avatarLeft
+    margin-left: 
+  &.crd--white
+    background-color: white
+  &.crd--emeraldBlue
+    background-color: #126783
+  &.crd--mint
+    background-color: #D3F9EE
+  &.crd--blue
+    background-color: #B1DBEA
+  &.crd--paleBlue
+    background-color: #CDE2E9
+  &.crd--gray
+    background-color: #F6F6F6
+  &.crd--brad
+    border-radius: 15px
+  &.crd--hoverBlue
+    height: 100%
+    transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1)
+    &:hover
+      background-color: #126783
+      h4, p
+        color: white
+  &.crd--shadow
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+
+
+  &.crd--number
+    position: relative
+    height: 100%
+    border: 3px solid #126783
+    border-radius: 15px
+    background-color: #D3F9EE
+    &::before
+      content: attr(data-crd-number)
+      position: absolute
+      top: 2rem
+      left: -1rem
+      padding: 0.25rem 0.7rem
+      color: white
+      font-weight: 700
+      border-radius: 999px
+      background-color: #126783 
+
+.crd--t3
+  background-image: url("../assets/curso/recursos/bg_t3.svg")
+  background-position: right bottom
+  background-size: contain
+  background-repeat: no-repeat
+  @media (max-width: 1200px)
+    background-image: none 
+
+.ps-center
+  position: relative
+  top: 50%
+  transform: translateY(-50%)
+  p
+    text-align: center
+    margin-bottom: 0
+
+.bl_00
+  position: absolute
+  bottom: 0
+  left: 0
+  width: 70px
+  height: 70px
+  background-image: url("../assets/curso/recursos/bl_00.png")
+  background-repeat: no-repeat
+  background-size: contain
+.tl_01
+  position: absolute
+  top: 0
+  left: 0
+  width: 65px
+  height: 55px
+  background-image: url("../assets/curso/recursos/tl_01.png")
+  background-repeat: no-repeat
+  background-size: contain
+.tl_02
+  position: absolute
+  top: 0
+  left: 0
+  width: 50px
+  height: 57px
+  background-image: url("../assets/curso/recursos/tl_02.png")
+  background-repeat: no-repeat
+  background-size: contain
+.br_01
+  position: absolute
+  bottom: 0
+  right: 0
+  width: 55px
+  height: 65px
+  background-image: url("../assets/curso/recursos/br_01.png")
+  background-repeat: no-repeat
+  background-size: contain
+.br_02
+  position: absolute
+  bottom: 0
+  right: 0
+  width: 55px
+  height: 56px
+  background-image: url("../assets/curso/recursos/br_02.png")
+  background-repeat: no-repeat
+  background-size: contain
+
+.crd--blue
+  background-color: #B1DBEA
+
+.acordion__activo
+  background-color: #E6EFF2
+
+///////// Card hover
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden   
+  &:hover    
+    .crd_hover_txt--font     
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+  .crd_hover_txt--font
+    position: absolute
+    padding: 1.5rem 2rem 2rem 2rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 4.5rem ))
+
+  &.clr--01
+    .crd_hover_txt--font
+      background-color: #20BDFC 
+      color: white !important
+  &.clr--02
+    .crd_hover_txt--font
+      background-color: #25E0AC      
+  &.clr--03
+    .crd_hover_txt--font
+      background-color: #126783
+      h4, p
+        color: white !important
+
+
+/// Cajon
+.cjn--blue
+  background-color: #B1DBEA
+  &::before
+    background-color: #20BDFC
+
+/// Backgrounds
+.bg_grad_01, .bg_grad_02, .bg_grad_03
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -3rem
+    width: calc( 100% + 6rem )
+    height: 100%    
+
+.bg_grad_01
+  &::before 
+    background: linear-gradient(180deg, rgba(255,255,255,1) 16%, rgba(212,238,248,1) 16%, rgba(255,255,255,1) 100%)
+.bg_grad_02
+  &::before  
+    background: linear-gradient(180deg, rgba(234,251,247,1) 0%, rgba(233,241,243,1) 100%)
+.bg_grad_03
+  &::before  
+    background: linear-gradient(0deg, rgba(212,238,248,1) 0%, rgba(255,255,255,1) 100%)  
+
+.bg_blue, .bg_gray  
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -3rem
+    width: calc( 100% + 6rem )
+    height: 100%    
+
+.bg_blue  
+  &::before    
+    background-color: #B1DBEA
+.bg_gray
+  &::before    
+    background-color: #E2E8EA
+
+.bg_img_01 
+  position: relative    
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute   
+    left: -3rem
+    width: calc( 100% + 6rem )
+    height: 100% 
+    background-image: url("../assets/curso/recursos/bg_image_01.svg")
+    background-position: top left
+    background-repeat: no-repeat
+    background-size: cover
+
+.bg_img_intro 
+  position: relative    
+  & > *
+    position: relative
+  &::before
+    content: ''    
+    position: absolute 
+    top: 0
+    right: 0
+    width: 400px
+    height: 100%     
+    background-image: url("../assets/curso/introduccion/intro.png")
+    background-position: top right
+    background-repeat: no-repeat
+    background-size: contain
+
+  
+/// tabas A
+.tabs-a.custom-color_01 .tabs-a__tab__selected 
+    background-color: #126783
+    color: white
+    &::before
+      background-color: #126783
+
+.tabs-a__content-item--active
+  background-color: #CDE2E9 !important
+  border-radius: 15px
+
+/// Slyder F
+.hg--100
+  height: 100% !important
+
+.horizontal-scroll
+  align-items: stretch !important
+
+.horizontal-scroll__wrapper[data-v-e258dbfc]
+  padding: 0 0.77rem
+
+.slyder-f__btn i 
+  font-size: 2rem
+  padding: 0.5rem 0.8rem
+  background-color: white
+  border-radius: 999px
+  box-shadow: 0 7px 12px rgba(0,0,0,0.12), 0 6px 6px rgba(0,0,0,0.20)
+
+
+/// Pasos tipo A
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  color: white !important
+
+/// Imagen infografrica tipo A
+.img-infografica__item__dot:before
+  opacity: 1
+
+///// banner prinicipal 
+
+.banner-principal__row
+  background-size: cover  
+  background-position: 50%
+  background-repeat: no-repeat 
+  border-radius: 20px
+  
+
+
+
+
+
+
+  
