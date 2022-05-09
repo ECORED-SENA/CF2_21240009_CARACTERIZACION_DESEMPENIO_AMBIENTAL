@@ -29,28 +29,28 @@
 
     .bg_grad_01
       .row.justify-content-center.mb-5
-        .col-lg-3.mb-4.mb-lg-0
+        .col-10.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
           .crd.crd--gray.crd--hoverBlue.crd--brad.crd--shadow
             figure.mb-4
               img(src="@/assets/curso/tema1/t1_02.svg", alt="alt").img110.m-auto
             h4.text-center La observación
             p.text-center.mb-0 Esta técnica es el registro visual de lo que está sucediendo en una situación real, en la que se clasifican y se consignan los datos dentro de un esquema previamente realizado según el problema o la información que se quiere obtener. (Observación de impactos ambientales de la organización, llevar registros).
 
-        .col-lg-3.mb-4.mb-lg-0
+        .col-10.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
           .crd.crd--gray.crd--hoverBlue.crd--brad.crd--shadow
             figure.mb-4
               img(src="@/assets/curso/tema1/t1_03.svg", alt="alt").img110.m-auto
             h4.text-center La encuesta
             p.text-center.mb-0 Consiste en la obtención directa de la información por parte de los sujetos propios del estudio, ya que ellos darán su opinión, concepto, conocimiento y demás sugerencias. (Encuestas sobre el desempeño ambiental de la organización, llevar los registros necesarios). 
 
-        .col-lg-3.mb-4.mb-lg-0
+        .col-10.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
           .crd.crd--gray.crd--hoverBlue.crd--brad.crd--shadow
             figure.mb-4
               img(src="@/assets/curso/tema1/t1_04.svg", alt="alt").img110.m-auto
             h4.text-center La entrevista
             p.text-center.mb-0 Se necesita la presencia del entrevistador y del entrevistado, por lo que  la información se encuentra por medio del diálogo continuo, dirigido o no dirigido. (Entrevistas con personal interno y externo  a la organización para identificar impactos ambientales). 
 
-        .col-lg-3.mb-0
+        .col-10.col-lg-3.mb-0(data-aos="zoom-in")
           .crd.crd--gray.crd--hoverBlue.crd--brad.crd--shadow
             figure.mb-4
               img(src="@/assets/curso/tema1/t1_05.svg", alt="alt").img110.m-auto
@@ -103,7 +103,7 @@
     .row.justify-content-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema1/t1_08.png", alt="alt").m-auto
+          img(src="@/assets/curso/tema1/t1_08.png", alt="alt").img500.m-auto
       .col-lg-7
         p El encargado de recolectar, almacenar y difundir la información en temas ambientales es el sistema de información ambiental denominado #[span.clr--DarkGreen SIAC], el cual se encarga de gestionar la información ambiental del país por medio de la integración de actores, procesos, políticas y tecnología que gestionen información acerca del estado, del uso y aprovechamiento, la sostenibilidad y vulnerabilidad del medio ambiente, para la educación y participación social con miras a la toma de decisiones que aporten hacia el desarrollo sostenible del país.
         p El SIAC tiene como principal objetivo la identificación de los ecosistemas, los recursos naturales o regiones que cuentan con alta prioridad en acciones de protección, recuperación, investigación y manejo sostenible. Este sistema se encuentra liderado principalmente por el #[span.clr--DarkGreen Ministerio de Ambiente y Desarrollo Sostenible, en coordinación con los institutos de investigación ambiental IDEAM, SINCHI, HUMBOLDT e INVEMAR], al igual que las autoridades ambientales de cada región del país, las diferentes comunidades académicas, todos los usuarios y proveedores de la información ambiental.
@@ -169,7 +169,7 @@
 
         .col-lg-5.order-1.order-lg-2.mb-2.mb-lg-0
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema1/t1_09.svg", alt="alt").m-auto
+            img(src="@/assets/curso/tema1/t1_09.svg", alt="alt").img500.m-auto
 
       
         

@@ -22,14 +22,14 @@
       h3 Tipos de aspectos ambientales
       .title_icon
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-7
         p Según la Norma ISO 14001:2015 un aspecto ambiental es un elemento que deriva de la actividad empresarial de la organización y que tiene contacto o puede interactuar con el medio ambiente.
         .crd.crd--mint.crd--brad.mb-4
             .cta_icon_01
               figure
                 img(src="@/assets/curso/recursos/icon_cta_02.svg", alt="alt").img85.m-auto
-            p.ms-3.mb-4 Para conocer más sobre los aspectos e impactos ambientales que menciona la Norma se invita a revisar el siguiente enlace:
+            p.ms-3.mb-4 #[strong Para conocer más sobre los aspectos e impactos ambientales que menciona la Norma se invita a revisar el siguiente enlace:]
             .row
               .col-auto         
                 a.anexo.mb-4.mb-lg-0(href="https://www.minambiente.gov.co/ " target="_blank")
@@ -343,7 +343,7 @@
       h2 3.1  Matriz de aspectos e impactos ambientales
 
     .row.justify-content-center.mb-4
-      .col-lg-7
+      .col-lg-7.mb-5.mb-lg-0
         p Es una de las herramientas fundamentales dentro de un sistema de gestión ambiental, ya que al ser una exigencia de la Norma ISO 14001 que regula estos sistemas se convierte en un paso para la obtención de la certificación ambiental. 
         p La matriz ambiental de la Norma ISO 14001 busca que todos los proyectos planteados en la empresa sean ambientalmente positivos, es decir, que se alineen con el cuidado del medio ambiente, desde su planeación hasta su finalización y resultados. Por lo tanto, se entiende que esta matriz funcionará como un instrumento de planificación en el cual se vinculan las variables ambientales evidenciadas dentro de todas las etapas del proceso productivo de la organización. 
         .row
@@ -676,7 +676,7 @@
           .cta_icon_01
             figure
               img(src="@/assets/curso/recursos/icon_cta_02.svg", alt="alt").img125.m-auto
-          p.ms-4.mb-4 Para profundizar en el tema sobre aspectos de impactos ambientales se invita a revisar el siguiente video institucional.
+          p.ms-4.mb-4 #[strong Para profundizar en el tema sobre aspectos de impactos ambientales se invita a revisar el siguiente video institucional.]
           .row.ms-2
             .col-auto      
               a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=rE-m9ZYs0u8" target="_blank")

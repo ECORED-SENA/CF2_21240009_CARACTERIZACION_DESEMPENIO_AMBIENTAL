@@ -36,7 +36,7 @@
               p Es la etapa final del proceso donde se adapta el producto a las necesidades del cliente, para la comercialización, el transporte y almacenamiento, al igual que en la etapa analítica juegan un papel crucial, ya que se debe tener un control del producto terminado y unas condiciones adecuadas, para que no se arruine el producto de ninguna manera.
               p.mb-0 Una vez que el producto sea entregado, también es necesario realizar un control que permita establecer si el producto que se entregó cumple con los objetivos y los estándares de calidad que fueron previamente establecidos. 
 
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-flex
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema2/t2_01.png", alt="alt").m-auto
 
@@ -146,7 +146,7 @@
             img(src="@/assets/curso/tema2/t2_11.svg", alt="alt").img350.m-auto
 
     .row.justify-content-center.mb-5
-      .col-auto
+      .col-auto.d-none.d-lg-flex
         figure
           img(src="@/assets/curso/tema2/t2_15.png", alt="alt").img400.m-auto
       .col-lg
