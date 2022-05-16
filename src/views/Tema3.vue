@@ -72,8 +72,11 @@
 
             .crd.crd--mint.p-4(x="52%" y="58%" numero="+")
               .h5.mb-2 Vertidos de agua
-              p Estas aguas han sido alteradas por acciones antrópicas, por lo tanto requieren de un tratamiento previo a ser vertidas a algún cuerpo de agua. 
-              p.mb-0 #[strong Consumo de energía]<br>Hace referencia al gasto total de energía utilizada. 
+              p.mb-0 Estas aguas han sido alteradas por acciones antrópicas, por lo tanto requieren de un tratamiento previo a ser vertidas a algún cuerpo de agua.
+
+            .crd.crd--mint.p-4(x="72.7%" y="18.5%" numero="+")
+              .h5.mb-2 Consumo de energía
+              p.mb-0 Hace referencia al gasto total de energía utilizada.              
               
             .crd.crd--mint.p-4(x="21%" y="77.4%" numero="+")
               .h5.mb-2 Consumo de agua
