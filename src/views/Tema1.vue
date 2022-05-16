@@ -68,7 +68,7 @@
                 figure
                   img(src="@/assets/curso/recursos/icon_cta_01.svg", alt="alt").img85.m-auto
               .col
-                p.mb-0 Para profundizar en el tema se invita a consultar el video #[span.clr--DarkGreen “Técnicas e instrumentos para la recolección de datos”] que se encuentra en la sección de materiales complementarios, con el fin de aclarar la información recibida en esta parte del componente formativo.
+                p.mb-0 Para profundizar en el tema se invita a consultar el video #[span.clr--DarkGreen “técnicas e instrumentos para la recolección de datos”] que se encuentra en la sección de materiales complementarios, con el fin de aclarar la información recibida en esta parte del componente formativo.
 
       separador
 

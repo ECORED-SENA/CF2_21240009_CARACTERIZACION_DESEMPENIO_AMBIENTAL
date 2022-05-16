@@ -16,7 +16,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/6_BEn9hczo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .h3__cstm.mb-3
       h3 Tipos de aspectos ambientales
@@ -73,7 +73,7 @@
             .crd.crd--mint.p-4(x="52%" y="58%" numero="+")
               .h5.mb-2 Vertidos de agua
               p Estas aguas han sido alteradas por acciones antrópicas, por lo tanto requieren de un tratamiento previo a ser vertidas a algún cuerpo de agua. 
-              p.mb-0 Consumo de energía<br>Hace referencia al gasto total de energía utilizada. 
+              p.mb-0 #[strong Consumo de energía]<br>Hace referencia al gasto total de energía utilizada. 
               
             .crd.crd--mint.p-4(x="21%" y="77.4%" numero="+")
               .h5.mb-2 Consumo de agua
@@ -397,7 +397,7 @@
           .cta_icon_01
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/recursos/icon_cta_02.svg", alt="alt").img125.m-auto
-          p.ms-4.mb-4 Para profundizar en su aprendizaje se invita a revisar la Norma que a continuación se menciona, con el fin de aclarar los conceptos vistos en esta temática.
+          p.ms-4.mb-4 Para profundizar en su aprendizaje se invita a revisar la norma que a continuación se menciona, con el fin de aclarar los conceptos vistos en esta temática.
           .row.ms-2
             .col-auto      
               a.anexo(:href="obtenerLink('/downloads/NTC_ISO_14001_2015.pdf')" target="_blank")
@@ -693,7 +693,8 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/WCqlNKyQs2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      
 
           
 

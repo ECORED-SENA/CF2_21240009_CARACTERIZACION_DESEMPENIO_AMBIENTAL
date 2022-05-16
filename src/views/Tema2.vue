@@ -176,7 +176,7 @@
         figure
           img(src="@/assets/curso/tema2/t2_17.svg", alt="alt").m-auto
 
-    p.mb-5 Teniendo en cuenta lo anterior, a continuación, se observan las diferentes estructuras o tipos de diagramas de flujo, por lo que se invita a revisar con detenimiento la figura que se muestra sobre el flujograma vertical:
+    p.mb-5 Ahora, en la siguiente figura se muestra la estructura del flujograma que corresponde al tipo horizontal, se invita a revisar con detalle cada uno de los elementos que intervienen.
 
     .row.justify-content-center.mb-5
       .col-lg-10
