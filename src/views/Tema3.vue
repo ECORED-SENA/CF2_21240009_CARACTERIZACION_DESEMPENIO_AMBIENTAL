@@ -467,7 +467,7 @@
     .bg_img_01.pb-5.mb-5
       .row.justify-content-center.mb-5
         .col-lg-10
-          SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+          SlyderF.SlyderF--cstm.mb-5(columnas="col-lg-6 col-xl-4")
 
             .crd.crd--number(data-crd-number="1")
               .tl_01            
