@@ -238,7 +238,7 @@
                   img(src='@/assets/curso/tema2/t2_22.svg', alt='').img125
               .col-lg
                 h3 Implementar
-                p Esta es la fase de implementación y es clave que dentro del ciclo de gestión de los procesos se realice de manera correcta con las personas que están a cargo del proceso día a día para la adecuada identificación de obstáculos y diversas oportunidades de mejora, para que sea cada vez más eficiente.  
+                p Dentro de la etapa de implementación es donde se va a definir la forma en la que se ejecuta cada proceso, las diferentes directrices y modelos de calidad a seguir.   
 
             .row
               .col-lg

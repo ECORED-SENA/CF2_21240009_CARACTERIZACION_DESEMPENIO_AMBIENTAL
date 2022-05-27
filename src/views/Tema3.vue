@@ -32,11 +32,11 @@
             p.ms-3.mb-4 #[strong Para conocer más sobre los aspectos e impactos ambientales que menciona la Norma se invita a revisar el siguiente enlace:]
             .row
               .col-auto         
-                a.anexo.mb-4.mb-lg-0(href="https://www.minambiente.gov.co/ " target="_blank")
+                a.anexo.mb-4(:href="obtenerLink('/downloads/NTC_ISO_14001_2015.pdf')" target="_blank")
                   .anexo__icono
-                    img(src="@/assets/template/icono-link.svg")
+                    img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
-                    p #[strong Recurso.] ISO 14001:2015       
+                    p #[strong Recurso.] ISO 14001:2015                      
       
       .col-lg-5
         figure(data-aos="zoom-in")
@@ -540,7 +540,7 @@
               .ps-center
                 figure
                   img(src="@/assets/curso/tema3/t3_30.svg", alt="alt").img110.m-auto
-                p.text-center.mb-0 Limite la esfera de atribución.
+                p.text-center.mb-0 Acueductos, presas, drenajes o aquellas actividades que alteren los cuerpos naturales de agua.
               .br_02
 
             .crd.crd--white.crd--brad.crdH100

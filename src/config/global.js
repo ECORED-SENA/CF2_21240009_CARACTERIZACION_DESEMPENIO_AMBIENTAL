@@ -174,7 +174,7 @@ export default {
         'Son una base fundamental para la toma de decisiones frente a los impactos ambientales que se determinen y evalúen dentro de la organización. ',
     },
     {
-      termino: 'Variables ambientales ',
+      termino: 'Variables ambientales',
       significado:
         'Son aquellas que influyen en el desarrollo ambiental dentro de un contexto específico. Cuando se realiza una evaluación ambiental se analizan los efectos que unas variables pueden producir en otras, a través de las interacciones que ocurren entre ellas.',
     },
